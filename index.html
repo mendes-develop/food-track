@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Food Track</title>
   </head>
   <body>
-    <h1> Food Track</h1>
-    <p>Favorite your best restaurants in NYC!</p>
 
-    <form class="" action="index.html" method="post">
-      <label for="">Query by Borough</label>
-      <select name="location" id="">
-          <option value="manhattan">Manhattan</option>
-          <option value="queens">Queen</option>
-          <option value="brooklyn">Brooklyn</option>
-          <option value="bronx">Bronx</option>
-          <option value="statenisland">Staten Island</option>
-
-      </select>
-      <input type="submit" name="submit" value="Submit">
-    </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h1> Food Track</h1></a>
 
 
-    <div class="restaurants-collection">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <button class="btn btn-outline-success my-2 my-sm-0" id="favorites-btn" >Favorites</button>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <p>Favorite your best restaurants in NYC!</p>
+
+      <form class="" id="search-form" action="index.html" method="post">
+        <label for="">Query by Borough</label>
+        <select name="location" id="">
+            <option value="" disabled selected>Select a location</option>
+            <option value="manhattan">Manhattan</option>
+            <option value="queens">Queens</option>
+            <option value="brooklyn">Brooklyn</option>
+            <option value="bronx">Bronx</option>
+            <option value="statenisland">Staten Island</option>
+        </select>
+        <label for="">Restaurant Category</label>
+        <select name="category" id="">
+            <option value="" disabled selected>Category</option>
+            <option value="brunch">Brunch</option>
+            <option value="burger">Burger</option>
+            <option value="mexican">Mexican</option>
+            <option value="pizza">Pizza</option>
+            <option value="sushi">Sushi</option>
+        </select>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+
+      <div class="restaurants-collection">
+
+      </div>
 
     </div>
-
-
-
-
     <script type="text/javascript" src="index.js" ></script>
   </body>
 </html>

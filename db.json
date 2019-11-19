@@ -1,5 +1,104 @@
 {
   "favorites": [
-    
+    {
+      "name": "Prince Street Pizza",
+      "price": "$",
+      "imgURL": "https://s3-media3.fl.yelpcdn.com/bphoto/ZAukOyv530w4KjOHC5YY1w/o.jpg",
+      "street": "27 Prince St",
+      "city": "New York",
+      "id": 1
+    },
+    {
+      "name": "Rubirosa",
+      "price": "$$",
+      "imgURL": "https://s3-media4.fl.yelpcdn.com/bphoto/LuSzR8cpVQRofXOT_bMi1A/o.jpg",
+      "street": "235 Mulberry St",
+      "city": "New York",
+      "id": 2
+    },
+    {
+      "name": "Taqueria Coatzingo",
+      "price": "$$",
+      "imgURL": "https://s3-media1.fl.yelpcdn.com/bphoto/62yftEToi8jw10DbBNVNqg/o.jpg",
+      "street": "7605 Roosevelt Ave",
+      "city": "Jackson Heights",
+      "categories": [
+        {
+          "alias": "mexican",
+          "title": "Mexican"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Sushi Lab NYC",
+      "imgURL": "https://s3-media4.fl.yelpcdn.com/bphoto/plS5xOJD35T7yetC7feG9Q/o.jpg",
+      "street": "132 West 47th St",
+      "city": "New York",
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Sushi Lab NYC",
+      "imgURL": "https://s3-media4.fl.yelpcdn.com/bphoto/plS5xOJD35T7yetC7feG9Q/o.jpg",
+      "street": "132 West 47th St",
+      "city": "New York",
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "UOGASHI",
+      "price": "No Record",
+      "imgURL": "https://s3-media4.fl.yelpcdn.com/bphoto/yRiSFhnkSS-g__t2z7aaGg/o.jpg",
+      "street": "318 West 51st St",
+      "city": "New York",
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "UOGASHI",
+      "price": "No Record",
+      "imgURL": "https://s3-media4.fl.yelpcdn.com/bphoto/yRiSFhnkSS-g__t2z7aaGg/o.jpg",
+      "street": "318 West 51st St",
+      "city": "New York",
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "id": 7
+    }
   ]
 }
